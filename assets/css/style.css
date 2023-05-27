@@ -57,10 +57,6 @@ letter-spacing: 4px;
     height: 600px;
     width: 100%;
     background: url('../images/hero-image.webp') no-repeat center center;
-/* Animates zoom effect on loading page*/
-    animation-name: zero-zoom;
-    animation-duration: 5s;
-    animation-fill-mode:forwards;
 /*animates effects on loading page */
 animation-name: hero-zoom;
 animation-duration: 5s;
