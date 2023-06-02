@@ -244,3 +244,13 @@ hr {
     display: none;
 }
 }
+/* For medium size 950 px down*/
+@media screen and (max-width: 950px) {
+    #menu {
+        clear:left;
+        float:left;
+        margin-left: 30px;
+        margin-bottom: 20px;
+        line-height: 25px;
+    }
+}
