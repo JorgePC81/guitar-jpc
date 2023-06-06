@@ -5,11 +5,32 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Love Running</title>
+    <link rel="stylesheet" href="/assets/css/index.css">
 </head>
 <body>
+  <header>
+    <a href="index.css"></a>
+    <nav>
+        <ul id="menu">
+            <li>
+                <a href="signup.html" class="active">Sign Up</a>
+            </li>
+            <li>
+                <a href="gallery.html">Gallery</a>
+            </li>
+            <li>
+                <a href="index.html">Home</a>
+            </li>
+        </ul>
+    </nav>
+</header>
+  <div>
+  <img src="/assets/images/Run race.jpg" alt="person running in the beach" class="photo-back" style="width: 100%;">
   <form action="https://formdump.codeinstitute.net/" method="POST" class="signup-form">
+    
     <h2>Let's get you signed up! <i class="fa-solid fa-heart-pulse"></i></h2>
-            <label for="fname">First Name</label>    
+    
+            <label for="fname">First Name</label>
             <input type="text" name="first_name" id="fname" class="text-input" required>
             <label for="lname">Last Name</label>    
             <input type="text" name="last_name" id="lname" class="text-input" required>
@@ -23,5 +44,8 @@
             <input type="radio" name="running_preference" id="both" value="both">
             <input type="submit" value="Let's Run!" class="join-button">
   </form>
+</div>
+  <!--Font awesome script-->
+<script src="https://kit.fontawesome.com/690daeaea1.js" crossorigin="anonymous"></script>
 </body>
 </html>

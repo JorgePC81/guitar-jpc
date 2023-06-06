@@ -58,34 +58,13 @@ h1, h2{
 
 /* Hero image and cover text */
 
-#hero-outer{
-    height:600px;
-    width: 100%;
-    overflow: hidden;
-    position: relative;
+.photo-back{
+    position: absolute;
+    top: 8px;
+    left: 16px;
+    height:1200px;
+    background: url("/assets/images/Photo\ runing\ in\ the\ beach.jpg") no-repeat center center;
 }
-
-#hero-image{
-    height:600px;
-    width: 100%;
-    background: url("https://codeinstitute.s3.amazonaws.com/FundamentalsProjects/HTML-CSS/main-image.png") no-repeat center center;
-
-    /* Animates zoom effect on loading the page */
-    animation-name: hero-zoom;
-    animation-duration: 5s;
-    animation-fill-mode: forwards;
-}
-
-/* Creates the level of zoom for hero image */
-@keyframes hero-zoom {
-    from{
-        transform: scale(1);
-    }
-    to{
-        transform: scale(1.1);
-    }
-}
-
 #cover-text, #cover-text h2 {
     color: #ffffff;
 }
@@ -298,8 +277,7 @@ padding:30px;
 .join-button:hover {
     background-color: #fafafa;
     color:#f16c6b;
-
-}
+    
 
 /* Media queries */
 
